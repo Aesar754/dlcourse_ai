@@ -29,11 +29,17 @@ class TwoLayerNet:
         X, np array (batch_size, input_features) - input data
         y, np array of int (batch_size) - classes
         """
+        # Before running forward and backward pass through the model,
+        # clear parameter gradients aggregated from the previous pass
+        # TODO Set parameter gradient to zeros
+        # Hint: using self.params() might be useful!
+        raise Exception("Not implemented!")
+        
         # TODO Compute loss and fill param gradients
         # by running forward and backward passes through the model
 
         # After that, implement l2 regularization on all params
-        # Hint: use self.params()
+        # Hint: self.params() is useful again!
         raise Exception("Not implemented!")
 
         return loss
